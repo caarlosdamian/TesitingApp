@@ -6,7 +6,10 @@ function App() {
     <div className="App">
       <head className="App-header">
         <title>Header</title>
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;1,500&display=swap" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;1,500&display=swap"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         <header className="header">
@@ -26,6 +29,14 @@ function App() {
             </ul>
           </div>
         </header>
+        <section className="main">
+          <h2 className="main_title">¿Que es lo que quieres buscar?</h2>
+          <input
+            className="input"
+            type="text"
+            placeholder="Buscar..."
+          ></input>
+        </section>
       </body>
     </div>
   );

@@ -59,3 +59,25 @@ ul:hover {
 .header_menu--profile img {
   margin-right: 8px;
 }
+.main {
+  height: 200px;
+}
+.main_title {
+  color: white;
+  font-size: 25px;
+}
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  height: 45px;
+  padding: 0px 20px;
+  width: 70%;
+  outline: none;
+}
+.input::placeholder{
+color:white;
+}
