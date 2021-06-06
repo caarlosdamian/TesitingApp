@@ -1,0 +1,26 @@
+.main {
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_title {
+    color: white;
+    
+  }
+  .input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    height: 45px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: none;
+  }
+  .input::placeholder{
+  color:white;
+  }
+  
