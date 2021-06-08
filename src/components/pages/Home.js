@@ -10,6 +10,7 @@ function Home() {
         <h2 className="main_title">¿Que es lo que quieres buscar?</h2>
         <input className="input" type="text" placeholder="Buscar..."></input>
       </section>
+      <h2 className="categories__title">Mi Lista</h2>
       <section className="carousel">
         <div className="carousel_container">
           <div className="carousel_item">
@@ -29,7 +30,96 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="carousel_item"></div>
+          <div className="carousel_item">
+            <img
+              className="carousel_item_img"
+              src="https://source.unsplash.com/random?movie"
+              alt="img"
+            ></img>
+            <div className="carousel_item_details">
+              <div>
+                <img src={Play} alt=""></img>
+                <img src={Plus} alt=""></img>
+              </div>
+              <p className="carousel_item_details-title">Titulo Descriptivo</p>
+              <p className="carousel_item_details-subtitle">
+                2019 16+ 114minutos
+              </p>
+            </div>
+          </div>
+          <div className="carousel_item">
+            <img
+              className="carousel_item_img"
+              src="https://source.unsplash.com/random?movie"
+              alt="img"
+            ></img>
+            <div className="carousel_item_details">
+              <div>
+                <img src={Play} alt=""></img>
+                <img src={Plus} alt=""></img>
+              </div>
+              <p className="carousel_item_details-title">Titulo Descriptivo</p>
+              <p className="carousel_item_details-subtitle">
+                2019 16+ 114minutos
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 className="categories__title">Tendencias</h2>
+      <section className="carousel">
+        <div className="carousel_container">
+          <div className="carousel_item">
+            <img
+              className="carousel_item_img"
+              src="https://source.unsplash.com/random?movie"
+              alt="img"
+            ></img>
+            <div className="carousel_item_details">
+              <div>
+                <img src={Play} alt=""></img>
+                <img src={Plus} alt=""></img>
+              </div>
+              <p className="carousel_item_details-title">Titulo Descriptivo</p>
+              <p className="carousel_item_details-subtitle">
+                2019 16+ 114minutos
+              </p>
+            </div>
+          </div>
+          <div className="carousel_item">
+            <img
+              className="carousel_item_img"
+              src="https://source.unsplash.com/random?movie"
+              alt="img"
+            ></img>
+            <div className="carousel_item_details">
+              <div>
+                <img src={Play} alt=""></img>
+                <img src={Plus} alt=""></img>
+              </div>
+              <p className="carousel_item_details-title">Titulo Descriptivo</p>
+              <p className="carousel_item_details-subtitle">
+                2019 16+ 114minutos
+              </p>
+            </div>
+          </div>
+          <div className="carousel_item">
+            <img
+              className="carousel_item_img"
+              src="https://source.unsplash.com/random?movie"
+              alt="img"
+            ></img>
+            <div className="carousel_item_details">
+              <div>
+                <img src={Play} alt=""></img>
+                <img src={Plus} alt=""></img>
+              </div>
+              <p className="carousel_item_details-title">Titulo Descriptivo</p>
+              <p className="carousel_item_details-subtitle">
+                2019 16+ 114minutos
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

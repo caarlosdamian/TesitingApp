@@ -31,6 +31,9 @@ function Navbar() {
               <li>
                 <Link to="/Login">Cerrar Sesion</Link>
               </li>
+              <li>
+                <Link to="/Error">Error</Link>
+              </li>
             </ul>
           </div>
         </header>

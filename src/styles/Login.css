@@ -93,23 +93,7 @@
   letter-spacing: 1px;
   margin: 10px 0px;
 }
-.footer {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  background-color: 47597e;
-}
-.footer a {
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  padding-left: 30px;
-  text-decoration: none;
-}
-.footer:hover a {
-  text-decoration: underline;
-}
+
 
 @media only screen and (max-width: 700px) {
   .login_container {

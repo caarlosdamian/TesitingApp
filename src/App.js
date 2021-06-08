@@ -1,5 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
+import Error from "./components/Error.js";
 import Home from "./components/pages/Home";
 import Login from "./components/pages/LogIn";
 import Register from "./components/pages/Register";
@@ -14,7 +16,9 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/Register" exact component={Register} />
           <Route path="/Login" exact component={Login} />
+          <Route path="/Error" exact component={Error} />
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );
