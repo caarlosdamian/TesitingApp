@@ -26,7 +26,7 @@ function Navbar() {
                 <Link to="/">Cuenta</Link>
               </li>
               <li>
-                <Link to="/">Cerrar Sesion</Link>
+                <Link to="/Login">Cerrar Sesion</Link>
               </li>
             </ul>
           </div>
