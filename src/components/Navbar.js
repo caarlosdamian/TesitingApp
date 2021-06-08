@@ -26,6 +26,9 @@ function Navbar() {
                 <Link to="/">Cuenta</Link>
               </li>
               <li>
+                <Link to="/Register">Registrate</Link>
+              </li>
+              <li>
                 <Link to="/Login">Cerrar Sesion</Link>
               </li>
             </ul>
